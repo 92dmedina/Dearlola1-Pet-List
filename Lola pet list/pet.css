@@ -1,0 +1,115 @@
+.row,
+#imgDiv {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+/* Create two equal columns that sits next to each other */
+
+.column #imgDiv {
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+#boss {
+    width: 175px;
+    height: 175px;
+    border: white solid 2px;
+}
+
+#buttonBar {
+    left: 60%;
+    top: 5%;
+    background-color: #006622;
+    border: 2px solid white;
+    padding: 10px;
+    position: absolute;
+}
+
+button {
+    margin: 10px;
+    display: block;
+    padding: 10px 24px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 16px;
+    font-family: Georgia, serif;
+    background-color: #555555;
+}
+
+button:hover {
+    background: #ffffff;
+    color: black;
+}
+
+button:active {
+    color: black;
+    background: #ffffff;
+}
+
+#bossPets {
+    display: none;
+}
+
+#troutOut {
+    display: none;
+    top: -12px;
+    position: absolute;
+}
+
+.corp,
+.zulrah,
+.kraken,
+.smoke {
+    opacity: 25%;
+}
+
+span.green1 {
+    font-size: 28px;
+    top: 15px;
+    position: absolute;
+}
+
+span.green2 {
+    font-size: 28px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+span.green3 {
+    font-size: 28px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+span.green4 {
+    font-size: 28px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+#header {
+    top: 25%;
+    font-size: 40px;
+    color: #ffffff;
+    left: 25%;
+    position: absolute;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.troutIcon {
+    position: absolute;
+    left: 40%;
+    ;
+}
+
+body {
+    background-color: #000000;
+}
